@@ -1,0 +1,8 @@
+# Escludi file di ambiente
+.env
+
+# Escludi cartelle di cache o file temporanei
+__pycache__/
+*.pyc
+*.pyo
+
