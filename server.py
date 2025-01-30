@@ -17,7 +17,8 @@ twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
 # Messaggio di risposta automatica
 AUTO_REPLY_MESSAGE = ("Grazie per averci scritto!\n"
-                      "Purtroppo però questo numero non è abilitato alla ricezione di messaggi e non abbiamo modo di leggere quello che ci hai scritto"
+                      "Purtroppo questo numero non è abilitato alla ricezione di messaggi e non abbiamo modo di leggere quello che ci hai scritto\n"
+                      "\n"
                       "Per ricevere assistenza, contattaci tramite:\n"
                       "\n"
                       "📧 assistenza@grelli.it\n"
