@@ -24,8 +24,11 @@ AUTO_REPLY_MESSAGE = ("Grazie per averci scritto!\n"
                       "\n"
                       "📲 +39 3791988758\n"
                       "\n"
-                      "📞 +39 0758040747"
-                       "Grazie mille, *Ferramenta Grelli*")
+                      "📞 +39 0758040747\n"
+                      "\n"
+                      "Grazie mille,\n" 
+                      "\n"
+                      "*Ferramenta Grelli*")
 
 
 # 📩 Webhook per ricevere messaggi WhatsApp
