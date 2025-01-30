@@ -16,14 +16,17 @@ TWILIO_WHATSAPP_NUMBER = os.getenv('TWILIO_WHATSAPP_NUMBER')
 twilio_client = Client(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN)
 
 # Messaggio di risposta automatica
-AUTO_REPLY_MESSAGE = ("Grazie per averci scritto! Questo numero non è abilitato alla ricezione di messaggi. "
+AUTO_REPLY_MESSAGE = ("Grazie per averci scritto!\n
+                      "Purtroppo però questo numero non è abilitato alla ricezione di messaggi e non abbiamo modo di leggere quello che ci hai scritto"
                       "Per ricevere assistenza, contattaci tramite:\n"
                       "\n"
                       "📧 assistenza@grelli.it\n"
                       "\n"
                       "📲 +39 3791988758\n"
                       "\n"
-                      "📞 +39 0758040747")
+                      "📞 +39 0758040747"
+                       "Grazie mille, *Ferramenta Grelli*")
+
 
 # 📩 Webhook per ricevere messaggi WhatsApp
 @app.route('/whatsapp_webhook', methods=['POST'])
